@@ -43,7 +43,7 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
-  width: 388px;  
+  width: 388px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -62,13 +62,6 @@
   width: 765px;
   height: 608px;
   z-index: 1;
-}
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-
-.description {
-  display: flex;
-  justify-content: center;
 }
 
 .header__square-pic {
@@ -189,7 +182,6 @@ p:first-of-type {
     margin-bottom: 0;
     margin-top: 20px;
     font-size: 18px;
-    margin-bottom: 0;
     font-weight: normal;
   }
 
