@@ -25,6 +25,7 @@
   left: 64px;
   width: 183px;
   height: 32px;
+  z-index: 2;
 }
  
 .header__title {
@@ -38,6 +39,7 @@
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -49,11 +51,13 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+  z-index: 2;
 }
 
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  z-index: 2;
 }
 
 
@@ -73,6 +77,7 @@
   background-color: #2f80ed;
   height: 568px;
   width: 568px;
+  
 }
 
 /* блок description */
@@ -272,6 +277,8 @@
   color: white;
   margin-bottom: 20px;
   margin-top: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
@@ -281,7 +288,6 @@
   justify-content: center;
   color: white;
   margin-bottom: 0;
-  
 }
 
 .table_theme_dark {
@@ -315,8 +321,6 @@
   position: absolute;
   top:0;
   right: -210px;
- 
- 
 }
 
 
