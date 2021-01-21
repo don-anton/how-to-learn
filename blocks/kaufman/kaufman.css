@@ -3,4 +3,5 @@
     overflow: hidden;
     position: relative;
     padding-top: 90px;
+    z-index: 1;
   }
